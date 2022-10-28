@@ -25,7 +25,7 @@ div.flex {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 306px;
+  width: 315px;
   padding: 18px;
   margin: 0 auto;
   text-align: center;
@@ -52,7 +52,7 @@ img {
 
 @media screen and (min-width: 376px) {
   div.flex {
-    width: 306px;
+    width: 315px;
     padding: 18px;
     margin: 5% auto;
   }
