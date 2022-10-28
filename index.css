@@ -13,6 +13,11 @@ body {
   font-family: Outfit;
   font-size: 15px;
   background-color: hsl(212, 45%, 89%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
 }
 
 div.flex {
@@ -22,7 +27,7 @@ div.flex {
   justify-content: space-between;
   width: 306px;
   padding: 18px;
-  margin: 10% auto 20% auto;
+  margin: 0 auto;
   text-align: center;
   border-radius: 15px;
 }
