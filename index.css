@@ -11,16 +11,17 @@
 
 body {
   font-family: Outfit;
-  font-size: 15px;
+  font-size: 0.9375em;
   background-color: hsl(212, 45%, 89%);
   display: flex;
   flex-direction: column;
   justify-content: center;
   height: 100vh;
   width: 100vw;
+  align-items: center;
 }
 
-div.flex {
+article.flex {
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
@@ -32,7 +33,7 @@ div.flex {
   border-radius: 15px;
 }
 
-p.bold {
+h1.bold {
   font-weight: 700;
   color: hsl(218, 44%, 22%);
   padding: 10px 0 10px 0;
@@ -48,29 +49,4 @@ p.light {
 img {
   border-radius: 12px !important;
   margin-bottom: 10px;
-}
-
-@media screen and (min-width: 376px) {
-  div.flex {
-    width: 315px;
-    padding: 18px;
-    margin: 5% auto;
-  }
-
-  p.bold {
-    padding: 10px 0 10px 0;
-  }
-
-  p.light {
-    padding: 10px;
-    padding-bottom: 25px;
-  }
-
-  img {
-    margin-bottom: 10px;
-  }
-
-  .attribution {
-    left: 36vw;
-  }
 }
