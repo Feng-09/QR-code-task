@@ -35,7 +35,7 @@ div.flex {
 p.bold {
   font-weight: 700;
   color: hsl(218, 44%, 22%);
-  padding: 10px;
+  padding: 10px 0 10px 0;
   font-size: 1.5em;
 }
 
@@ -58,7 +58,7 @@ img {
   }
 
   p.bold {
-    padding: 10px;
+    padding: 10px 0 10px 0;
   }
 
   p.light {
